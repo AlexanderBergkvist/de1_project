@@ -1,0 +1,5 @@
+
+import SparkContext
+from pyspark import SparkContext
+#create SparkContext
+sc = SparkContext(spark://192.168.2.119:7077, "My First Spark Application")
